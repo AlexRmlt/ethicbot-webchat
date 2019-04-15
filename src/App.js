@@ -23,7 +23,7 @@ class App extends Component {
 				<Header />
 				<Widget 
 					initPayload={"/greeting"}
-	      			socketUrl={"http://localhost:8080"}
+	      			socketUrl={"http://80.190.117.198:8080"}
 	      			socketPath={"/socket.io/"}
 	      			embedded={true}
 	      			params={{storage: "session"}}
