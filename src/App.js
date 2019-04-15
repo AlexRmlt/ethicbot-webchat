@@ -13,6 +13,9 @@ class Header extends Component {
 	}
 }
 
+/* 	Dev: 	socketUrl={"http://localhost:8080"}
+	Prod:	socketUrl={"http://80.190.117.198:8080"} */
+
 class App extends Component {
 	render() {
 		return (

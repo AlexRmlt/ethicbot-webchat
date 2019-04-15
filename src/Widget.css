@@ -1,7 +1,7 @@
 .widget-embedded {
 	max-width: 80%;
 	max-height: 70%;
-	margin:auto;
+	margin:auto !important;
 	border-left: solid lightgrey 3px;
 	padding-left:20px;
 }
@@ -13,11 +13,11 @@
 }
 
 .client {
-	background-color: #00aaff;
+	background-color: #00aaff !important;
 }
 
 .conversation-container {
-	box-shadow: 0px 0 0px 0px;
+	box-shadow: 0px 0 0px 0px !important;
 }
 
 .conversation-container:after {
