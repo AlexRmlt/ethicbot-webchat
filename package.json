@@ -2,6 +2,7 @@
   "name": "webchat",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://www.ethicbot.com/",
   "dependencies": {
     "rasa-webchat": "github:mrbot-ai/rasa-webchat",
     "react": "^16.8.6",
