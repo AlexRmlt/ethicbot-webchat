@@ -7,7 +7,7 @@ class Header extends Component {
 	render() {
 		return (
 			<div className="Header">
-				<p>-Ethicbot-</p>
+				<p>Ethicbot</p>
 			</div>
 		);
 	}

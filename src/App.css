@@ -2,11 +2,14 @@
 
 .Header {
 	text-align: center;
-	font-size: 80px;
+	font-size: 60px;
 	font-family: 'Knewave';
 	letter-spacing: 0.1em;
-	color: #426986;
-	line-height: 10px;
+	color: #FFFFFF;
+	/* line-height: 10px; */
+	background-color: #003a9b;
+	margin-top: -80px;
+	padding-top: 10px;
 }
 
 ::-webkit-scrollbar {
