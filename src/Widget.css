@@ -29,3 +29,35 @@
     background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
     position: fixed;
 }
+
+/* DARK MODE */
+.dark-mode .messages-container {
+	background-color: #1a1919;
+}
+
+.dark-mode .conversation-container:after {
+	background: #1a1919;
+	height: 0px;
+}
+
+.dark-mode .response {
+	background-color: #272727;
+	color: #999;
+}
+
+.dark-mode .client {
+	background-color: #011a44;
+}
+
+.dark-mode .sender {
+	background-color: #1a1919;
+}
+
+.dark-mode .send {
+	background-color: #1a1919;
+}
+
+.dark-mode .new-message {
+	background-color: #1a1919;
+	color: #999;
+}

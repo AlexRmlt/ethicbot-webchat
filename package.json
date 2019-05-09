@@ -6,8 +6,11 @@
   "dependencies": {
     "rasa-webchat": "github:mrbot-ai/rasa-webchat",
     "react": "^16.8.6",
+    "react-burger-menu": "^2.6.10",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "react-toggle": "^4.0.2",
+    "use-dark-mode": "^2.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
