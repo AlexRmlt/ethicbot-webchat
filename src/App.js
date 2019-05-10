@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import CookieConsent from "react-cookie-consent";
 
 import './App.css';
 import './DarkMode.css';
@@ -6,7 +7,7 @@ import theme from './Widget.css'
 
 import { Widget } from 'rasa-webchat';
 import Header from './Header';
-import SideBar from "./sidebar";
+import SideBar from './Sidebar';
 
 /* 	Dev: 	socketUrl={"http://localhost:8080"}
 	Prod:	socketUrl={"http://80.190.117.198:8080"} */
@@ -27,6 +28,12 @@ class App extends Component {
 			      		params={{storage: "session"}}
 			      		theme={theme}
 					/>
+					<CookieConsent
+						buttonClasses="disclaimer-button"
+					>
+					    By talking to the chatbot, you accept that conversations are stored for evaluation purposes. 
+					    Please be careful when providing personal information.
+					</CookieConsent>
 				</div>
 			</div>
       	);
