@@ -1,3 +1,7 @@
+.dark-mode .new-message {
+    color: #000000 !important;
+}
+
 .dark-mode-toggle {
   position: relative;
   right: 16px;
@@ -25,7 +29,6 @@
   color: #ffe600;
 }
 
-/* bab3fd */
 .dark-mode-toggle > button:focus {
   outline: none;
 }
