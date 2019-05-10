@@ -15,14 +15,14 @@ install:
 		-v $(shell pwd):/home/node/app \
 		-v $(shell pwd)/node_modules:/home/node/app/node_modules \
 		aroemelt/ethicbot:webchat \
-		npm install
+		sudo npm install
 
 audit-fix:
 	docker run -it \
 		-v $(shell pwd):/home/node/app \
 		-v $(shell pwd)/node_modules:/app/node_modules \
 		aroemelt/ethicbot:webchat \
-		npm audit fix
+		sudo npm audit fix
 
 build:
 	docker run -it \
