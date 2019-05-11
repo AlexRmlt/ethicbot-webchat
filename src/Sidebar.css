@@ -60,6 +60,17 @@ button {
   top: 36px;
 }
 
+/* MOBILE */
+@media (max-width: 1280px) {
+  .bm-burger-button {
+      position: fixed;
+      width: 36px;
+      height: 30px;
+      left: 16px;
+      top: 20px;
+  }
+}
+
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
   background: white;
