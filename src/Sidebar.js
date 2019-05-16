@@ -11,7 +11,7 @@ class About extends Component {
 				<h3>About</h3>
 				<p>Master Thesis by Alexander Römelt</p>
 				<p><b>GitHub:</b></p> 
-				<p>github.com/AlexRmlt/ethicbot</p>
+				<p>github.com/AlexRmlt</p>
 
 				<p><b>Contact:</b></p>
 				<p>roemelt[at]stud.uni-heidelberg.de</p>
