@@ -9,9 +9,6 @@ import { Widget } from 'rasa-webchat';
 import Header from './Header';
 import SideBar from './Sidebar';
 
-/* 	Dev: 	socketUrl={"http://localhost:8080"}
-	Prod:	socketUrl={"http://80.190.117.198:8080"} */
-
 class App extends Component {
 	render() {
 		return (
@@ -22,7 +19,7 @@ class App extends Component {
 					<Widget 
 						interval={2000}
 						initPayload={"/greeting"}
-			      		socketUrl={"http://80.190.117.198:8080"}
+			      		socketUrl={"http://80.190.117.198:5000"}
 			      		socketPath={"/socket.io/"}
 			      		embedded={true}
 			      		params={{storage: "session"}}

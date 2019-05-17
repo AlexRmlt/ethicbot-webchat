@@ -1,4 +1,4 @@
-.PHONY: install audit-fix build
+.PHONY: install audit-fix build run
 
 TEST_PATH=./
 
@@ -9,6 +9,8 @@ help:
 	@echo "       Fix vulnerabilities."
 	@echo "    build"
 	@echo "       Make productive build."
+	@echo "    run"
+	@echo "       Run server"
 
 install:
 	docker run -it \
@@ -31,4 +33,12 @@ build:
 		-v $(shell pwd)/build:/home/node/app/build \
 		aroemelt/ethicbot:webchat \
 		sudo npm run build
+
+run:
+	docker run \
+		-p 5000:5000 \
+		-v $(shell pwd)/build:/home/node/app/build \
+		aroemelt/ethicbot:webchat \
+		serve -s build
+
 
