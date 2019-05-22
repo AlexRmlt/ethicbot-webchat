@@ -10,6 +10,7 @@ class About extends Component {
 			<div className="about">
 				<h3>About</h3>
 				<p>Master Thesis by Alexander Römelt</p>
+                <p>Ruprecht-Karls-Universität Heidelberg</p>
 				<p><b>GitHub:</b></p> 
 				<p>github.com/AlexRmlt</p>
 

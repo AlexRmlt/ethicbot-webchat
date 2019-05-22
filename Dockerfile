@@ -1,24 +1,18 @@
-FROM node:latest
+FROM node:10-alpine
 
-RUN apt-get update && \
-    apt-get -y install sudo && \
-    adduser node sudo && \
-    echo "node ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
+WORKDIR /opt/app
 
-USER node
+ENV PORT=80
 
-RUN mkdir /home/node/.npm-global ; \
-    mkdir -p /home/node/app ; \
-    chown -R node:node /home/node/app ; \
-    chown -R node:node /home/node/.npm-global
-ENV PATH=/home/node/.npm-global/bin:$PATH
-ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
+RUN apk add --no-cache git
 
-WORKDIR /home/node/app
+RUN echo 'set -e' >> /boot.sh
 
-RUN npm -g install serve
+# daemon for cron jobs
+RUN echo 'crond' >> /boot.sh
+# RUN echo 'crontab .openode.cron' >> /boot.sh
 
-COPY . /home/node/app
+RUN echo 'npm install --production' >> /boot.sh
 
-RUN npm install
-RUN sudo chmod -R 777 /home/node/app
+# npm start, make sure to have a start attribute in "scripts" in package.json
+CMD sh /boot.sh && npm start
