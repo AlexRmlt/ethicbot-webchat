@@ -9,6 +9,7 @@ import { Widget } from 'rasa-webchat';
 import Header from './Header';
 import SideBar from './Sidebar';
 
+
 class App extends Component {
 	render() {
 		return (

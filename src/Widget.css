@@ -30,6 +30,15 @@
     position: fixed;
 }
 
+.conversation-container .response {
+    max-width: 500px !important;
+}
+
+.conversation-container .client {
+    max-width: 500px !important;
+}
+
+
 /* DARK MODE */
 .dark-mode .messages-container {
 	background-color: #1a1919;
