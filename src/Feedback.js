@@ -92,6 +92,11 @@ const RadioButtonGroup = ({
 class Feedback extends Component {
     render() {
         const errorMessage = "Choosing one option is required";
+        const encode = (data) => {
+            return Object.keys(data)
+                .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+                .join("&");
+        }
         return (
             <div className="form-container">
                 <Formik
@@ -128,7 +133,14 @@ class Feedback extends Component {
                             console.log(JSON.stringify(values, null, 2));
                             actions.setSubmitting(false);
                         }, 500);
-
+                        
+                        fetch("/", {
+                            method: "POST",
+                            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                            body: encode({ ...this.state })
+                          })
+                            .then(() => alert("Success!"))
+                            .catch(error => alert(error));
                     }}
                     render={({
                         handleSubmit,
