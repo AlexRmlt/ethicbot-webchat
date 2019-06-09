@@ -21,6 +21,7 @@ const Textarea = ({
         <div>
             <textarea 
                 id={id}
+                name="textareaFeedback"
                 placeholder={placeholder}                       
                 rows={rows}   
                 onChange={onChange}                   
@@ -138,8 +139,9 @@ class Feedback extends Component {
                             headers: { "Content-Type": "application/x-www-form-urlencoded" },
                             body: encode({ "form-name": "feedback", ...values })
                           })
-                            .then(() => alert("Success!"))
+                            .then(() => alert("Thanks, your feedback has been submitted!"))
                             .catch(error => alert(error));
+                        actions.resetForm();
                     }}
                     render={({
                         handleSubmit,
