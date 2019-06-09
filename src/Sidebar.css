@@ -3,6 +3,7 @@ button {
   border:none; 
   padding:0!important;
   font:inherit;
+  cursor: pointer;
 }
 
 .about {

@@ -4,6 +4,8 @@ import DarkModeToggle from './DarkModeToggle';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import './Sidebar.css';
 
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 class About extends Component {
 	render() {
 		return (
@@ -38,6 +40,10 @@ class Sidebar extends Component {
     	this.setState(state => ({menuOpen: !state.menuOpen}))
   	}
 
+    restartConversation() {
+        
+    }
+
 	render() {
 		const transitionOptions = {
 			transitionName: "fade",
@@ -48,23 +54,26 @@ class Sidebar extends Component {
     	let content = undefined;
 	    if (!this.state.showAbout) {
 	        content = (
-	        	<div key="home">
-			    	<button className="bm-item" onClick={() => this.setState({menuOpen: false})}>Home</button>
-			    	<br />
-			      	<button className="bm-item" onClick={() => this.setState({showAbout: true})}>About</button>
-
-			      	<br />
-			      	<hr />
-
-			      	<DarkModeToggle />
-			    </div>
+                <div key="home">
+    			   	<Link to="/" onClick={() => this.setState({menuOpen: false})} className="bm-item">Home</Link>
+    			   	<br />
+    			   	<button onClick={() => this.setState({showAbout: true})} className="bm-item">About</button>
+    			   	<br />
+                    <Link to="/feedback" onClick={() => this.setState({menuOpen: false})} className="bm-item">Feedback</Link>
+                    <br />
+    			   	<hr />
+                                            
+                    {/* <button className="bm-item" onClick={() => this.restartConversation()}>Restart conversation</button>
+                    <hr /> */}
+   			      	<DarkModeToggle />
+                </div>
 			);
 	    } else {
 	        content = (
 	        	<div key="about">
 					<About />
 					<hr />
-					<button className="bm-item" onClick={() => this.setState({showAbout: false})}>Back</button>
+					<button onClick={() => this.setState({showAbout: false})} className="bm-item">Back</button>
 				</div>
 	        );
 	    } 
@@ -84,4 +93,8 @@ class Sidebar extends Component {
 	}
 };
 
-export default Sidebar;
+export { 
+    Sidebar as default,
+    Router, 
+    Route
+};

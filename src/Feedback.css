@@ -1,0 +1,78 @@
+.form-container {
+  width: 75%;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-container input {
+  padding: .5rem;
+  font-size: 16px;
+  margin: 5px;
+  display: block;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.form-container button {
+  max-width: 150px;
+  margin: 20px 0;
+  padding: 12px 20px !important;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #08c !important;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.form-container button:disabled {
+  opacity: .5;
+  cursor: not-allowed !important;
+}
+
+.form-container button + button {
+  margin-left: .5rem;
+}
+
+.form-container button.outline {
+  background-color: #eee;
+  border: 1px solid #aaa;
+  color: #555;
+}
+
+fieldset div {
+  display: inline;
+  margin-left:5px;
+  margin-right:5px;
+}
+
+fieldset {
+  border:1px solid #aaa;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;  
+  border-radius:8px;  
+  margin-bottom:15px;
+}
+
+legend {
+  font-weight:bold;
+}
+
+textarea {
+  margin-top:15px;
+  resize: none;
+  width: 400px;
+}
+
+.radio-button {
+  display: inline-block !important;
+}
+
+.input-feedback {
+  color:red;
+}
+

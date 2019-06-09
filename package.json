@@ -4,16 +4,19 @@
   "private": true,
   "homepage": "http://www.ethicbot.com/",
   "dependencies": {
+    "formik": "^1.5.7",
     "rasa-webchat": "github:mrbot-ai/rasa-webchat",
     "react": "^16.8.6",
     "react-addons-css-transition-group": "^15.6.2",
     "react-burger-menu": "^2.6.10",
     "react-cookie-consent": "^2.3.1",
     "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "2.1.8",
     "react-toggle": "^4.0.2",
-    "use-dark-mode": "^2.3.1"
+    "use-dark-mode": "^2.3.1",
+    "yup": "^0.27.0"
   },
   "scripts": {
     "start": "react-scripts start",
