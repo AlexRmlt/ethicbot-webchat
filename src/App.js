@@ -20,8 +20,6 @@ class AwayMessage extends Component {
 	}
 }
 
-/* https://ethicbot.ddns.net/ */
-
 class Chatbot extends Component {
   	render() {
   		// Does not work yet!
@@ -32,7 +30,7 @@ class Chatbot extends Component {
 			<Widget 
 				interval={2000}
 				initPayload={"/greeting"}
-				socketUrl={""}
+				socketUrl={"https://ethicbot.ddns.net/"}
 				socketPath={"/socket.io/"}
 				embedded={true}
 				params={{storage: "session"}}
