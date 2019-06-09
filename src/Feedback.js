@@ -101,7 +101,6 @@ class Feedback extends Component {
             <div className="form-container">
                 <Formik
                     initialValues={{
-                        "form-name": "feedback",
                         rgInterest: "",
                         rgTech: "",
                         rgAge: "",
@@ -137,7 +136,7 @@ class Feedback extends Component {
                         fetch("/", {
                             method: "POST",
                             headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                            body: encode({ ...this.state })
+                            body: encode({ "form-name": "feedback", values })
                           })
                             .then(() => alert("Success!"))
                             .catch(error => alert(error));
@@ -469,7 +468,6 @@ class Feedback extends Component {
                                 placeholder="Please leave any further feedback you might want to address here..."
                                 rows="5"
                             />
-                            <Field type="hidden" name="form-name" />
                             <br />
                             <button type="submit" disabled={isSubmitting}>
                             Submit
