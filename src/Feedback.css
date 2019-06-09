@@ -65,7 +65,7 @@ legend {
 textarea {
   margin-top:15px;
   resize: none;
-  width: 400px;
+  width:100%;
 }
 
 .radio-button {
