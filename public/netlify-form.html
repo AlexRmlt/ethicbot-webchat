@@ -1,37 +1,98 @@
 <!-- A little help for the Netlify post-processing bots -->
 <form name="feedback" netlify hidden>
-    <input name="rgBotBefore" id="rgBotBefore_Yes" type="radio" value="rgBotBefore_Yes"></input>
-    <input name="rgBotBefore" id="rgBotBefore_No" type="radio" value="rgBotBefore_No"></input>
-    <input name="rgInterest" id="rgInterest_Strong" type="radio" value="rgInterest_Strong"></input>
-    <input name="rgInterest" id="rgInterest_Slightly" type="radio" value="rgInterest_Slightly"></input>
-    <input name="rgInterest" id="rgInterest_Not" type="radio" value="rgInterest_Not"></input>
-    <input name="rgTech" id="rgTech_Strong" type="radio" value="rgTech_Strong"></input>
-    <input name="rgTech" id="rgTech_Slightly" type="radio" value="rgTech_Slightly"></input>
-    <input name="rgTech" id="rgTech_Not" type="radio" value="rgTech_Not"></input>
-    <input name="rgAge" id="rgTech_18" type="radio" value="rgTech_18"></input>
-    <input name="rgAge" id="rgTech_30" type="radio" value="rgTech_30"></input>
-    <input name="rgAge" id="rgTech_60" type="radio" value="rgTech_60"></input>
-    <input name="rgAge" id="rgTech_Above" type="radio" value="rgTech_Above"></input>
-    <input name="rgUnderstanding" id="rgUnderstanding_Strong" type="radio" value="rgUnderstanding_Strong"></input>
-    <input name="rgUnderstanding" id="rgUnderstanding_Slightly" type="radio" value="rgUnderstanding_Slightly"></input>
-    <input name="rgUnderstanding" id="rgUnderstanding_Not" type="radio" value="rgUnderstanding_Not"></input>
-    <input name="rgAsking" id="rgAsking_Strong" type="radio" value="rgAsking_Strong"></input>
-    <input name="rgAsking" id="rgAsking_Slightly" type="radio" value="rgAsking_Slightly"></input>
-    <input name="rgAsking" id="rgAsking_Not" type="radio" value="rgAsking_Not"></input>
-    <input name="rgStakeholder" id="rgStakeholder_Applies" type="radio" value="rgStakeholder_Applies"></input>
-    <input name="rgStakeholder" id="rgStakeholder_Not" type="radio" value="rgStakeholder_Not"></input>
-    <input name="rgStakeholder" id="rgStakeholder_NotAsked" type="radio" value="rgStakeholder_NotAsked"></input>
-    <input name="rgOptions" id="rgOptions_Applies" type="radio" value="rgOptions_Applies"></input>
-    <input name="rgOptions" id="rgOptions_Not" type="radio" value="rgOptions_Not"></input>
-    <input name="rgOptions" id="rgOptions_NotAsked" type="radio" value="rgOptions_NotAsked"></input>
-    <input name="rgConsequences" id="rgConsequences_Applies" type="radio" value="rgConsequences_Applies"></input>
-    <input name="rgConsequences" id="rgConsequences_Not" type="radio" value="rgConsequences_Not"></input>
-    <input name="rgConsequences" id="rgConsequences_NotAsked" type="radio" value="rgConsequences_NotAsked"></input>
-    <input name="rgUtilitarism" id="rgUtilitarism_Applies" type="radio" value="rgUtilitarism_Applies"></input>
-    <input name="rgUtilitarism" id="rgUtilitarism_Not" type="radio" value="rgUtilitarism_Not"></input>
-    <input name="rgUtilitarism" id="rgUtilitarism_NotChosen" type="radio" value="rgUtilitarism_NotChosen"></input>
-    <input name="rgDeontology" id="rgDeontology_Applies" type="radio" value="rgDeontology_Applies"></input>
-    <input name="rgDeontology" id="rgDeontology_Not" type="radio" value="rgDeontology_Not"></input>
-    <input name="rgDeontology" id="rgDeontology_NotChosen" type="radio" value="rgDeontology_NotChosen"></input>
+    <!-- 1. Personal information -->
+    <input name="PI_BotBefore" id="PI_BotBefore_Yes" type="radio"></input>
+    <input name="PI_BotBefore" id="PI_BotBefore_No" type="radio"></input>
+
+    <input name="PI_Interest" id="PI_Interest_Yes" type="radio"></input>
+    <input name="PI_Interest" id="PI_Interest_No" type="radio"></input>
+    
+    <input name="PI_Tech" id="PI_Tech_Yes" type="radio"></input>
+    <input name="PI_Tech" id="PI_Tech_No" type="radio"></input>
+    
+    <input name="PI_English" id="PI_English_Yes" type="radio"></input>
+    <input name="PI_English" id="PI_English_No" type="radio"></input>
+    
+    <input name="PI_inputAge" id="PI_inputAge" type="number"></input>
+
+    <!-- 2. General impression -->
+    <input name="GI_EaseOfUse" id="GI_EaseOfUse_SA" type="radio"></input>
+    <input name="GI_EaseOfUse" id="GI_EaseOfUse_A" type="radio"></input>
+    <input name="GI_EaseOfUse" id="GI_EaseOfUse_SWA" type="radio"></input>
+    <input name="GI_EaseOfUse" id="GI_EaseOfUse_SD" type="radio"></input>
+    <input name="GI_EaseOfUse" id="GI_EaseOfUse_D" type="radio"></input>
+    <input name="GI_EaseOfUse" id="GI_EaseOfUse_SWD" type="radio"></input>
+
+    <input name="GI_EasyToUnderstand" id="GI_EasyToUnderstand_SA" type="radio"></input>
+    <input name="GI_EasyToUnderstand" id="GI_EasyToUnderstand_A" type="radio"></input>
+    <input name="GI_EasyToUnderstand" id="GI_EasyToUnderstand_SWA" type="radio"></input>
+    <input name="GI_EasyToUnderstand" id="GI_EasyToUnderstand_SD" type="radio"></input>
+    <input name="GI_EasyToUnderstand" id="GI_EasyToUnderstand_D" type="radio"></input>
+    <input name="GI_EasyToUnderstand" id="GI_EasyToUnderstand_SWD" type="radio"></input>
+
+    <input name="GI_UsefulMessages" id="GI_UsefulMessages_SA" type="radio"></input>
+    <input name="GI_UsefulMessages" id="GI_UsefulMessages_A" type="radio"></input>
+    <input name="GI_UsefulMessages" id="GI_UsefulMessages_SWA" type="radio"></input>
+    <input name="GI_UsefulMessages" id="GI_UsefulMessages_SD" type="radio"></input>
+    <input name="GI_UsefulMessages" id="GI_UsefulMessages_D" type="radio"></input>
+    <input name="GI_UsefulMessages" id="GI_UsefulMessages_SWD" type="radio"></input>
+
+    <input name="GI_Repetitive" id="GI_Repetitive_SA" type="radio"></input>
+    <input name="GI_Repetitive" id="GI_Repetitive_A" type="radio"></input>
+    <input name="GI_Repetitive" id="GI_Repetitive_SWA" type="radio"></input>
+    <input name="GI_Repetitive" id="GI_Repetitive_SD" type="radio"></input>
+    <input name="GI_Repetitive" id="GI_Repetitive_D" type="radio"></input>
+    <input name="GI_Repetitive" id="GI_Repetitive_SWD" type="radio"></input>
+
+    <input name="GI_Interesting" id="GI_Interesting_SA" type="radio"></input>
+    <input name="GI_Interesting" id="GI_Interesting_A" type="radio"></input>
+    <input name="GI_Interesting" id="GI_Interesting_SWA" type="radio"></input>
+    <input name="GI_Interesting" id="GI_Interesting_SD" type="radio"></input>
+    <input name="GI_Interesting" id="GI_Interesting_D" type="radio"></input>
+    <input name="GI_Interesting" id="GI_Interesting_SWD" type="radio"></input>
+
+    <input name="GI_Learned" id="GI_Learned_SA" type="radio"></input>
+    <input name="GI_Learned" id="GI_Learned_A" type="radio"></input>
+    <input name="GI_Learned" id="GI_Learned_SWA" type="radio"></input>
+    <input name="GI_Learned" id="GI_Learned_SD" type="radio"></input>
+    <input name="GI_Learned" id="GI_Learned_D" type="radio"></input>
+    <input name="GI_Learned" id="GI_Learned_SWD" type="radio"></input>
+
+    <input name="GI_Maintain" id="GI_Maintain_SA" type="radio"></input>
+    <input name="GI_Maintain" id="GI_Maintain_A" type="radio"></input>
+    <input name="GI_Maintain" id="GI_Maintain_SWA" type="radio"></input>
+    <input name="GI_Maintain" id="GI_Maintain_SD" type="radio"></input>
+    <input name="GI_Maintain" id="GI_Maintain_D" type="radio"></input>
+    <input name="GI_Maintain" id="GI_Maintain_SWD" type="radio"></input>
+
+    <input name="GI_Robust" id="GI_Robust_SA" type="radio"></input>
+    <input name="GI_Robust" id="GI_Robust_A" type="radio"></input>
+    <input name="GI_Robust" id="GI_Robust_SWA" type="radio"></input>
+    <input name="GI_Robust" id="GI_Robust_SD" type="radio"></input>
+    <input name="GI_Robust" id="GI_Robust_D" type="radio"></input>
+    <input name="GI_Robust" id="GI_Robust_SWD" type="radio"></input>
+
+
+    <!-- 3. Individual sections -->
+    <input name="IS_Stakeholder" id="IS_Stakeholder_Yes" type="radio"></input>
+    <input name="IS_Stakeholder" id="IS_Stakeholder_No" type="radio"></input>
+    <input name="IS_Stakeholder" id="IS_Stakeholder_NotAsked" type="radio"></input>
+
+    <input name="IS_Options" id="IS_Options_Yes" type="radio"></input>
+    <input name="IS_Options" id="IS_Options_No" type="radio"></input>
+    <input name="IS_Options" id="IS_Options_NotAsked" type="radio"></input>
+
+    <input name="IS_Consequences" id="IS_Consequences_Yes" type="radio"></input>
+    <input name="IS_Consequences" id="IS_Consequences_No" type="radio"></input>
+    <input name="IS_Consequences" id="IS_Consequences_NotAsked" type="radio"></input>
+
+    <input name="IS_Utilitarism" id="IS_Utilitarism_Yes" type="radio"></input>
+    <input name="IS_Utilitarism" id="IS_Utilitarism_No" type="radio"></input>
+    <input name="IS_Utilitarism" id="IS_Utilitarism_NotChosen" type="radio"></input>
+
+    <input name="IS_Deontology" id="IS_Deontology_Yes" type="radio"></input>
+    <input name="IS_Deontology" id="IS_Deontology_No" type="radio"></input>
+    <input name="IS_Deontology" id="IS_Deontology_NotChosen" type="radio"></input>
+    
     <textarea name="textareaFeedback" id="textareaFeedback"></textarea>
 </form>
