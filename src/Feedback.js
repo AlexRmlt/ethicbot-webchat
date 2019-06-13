@@ -917,7 +917,7 @@ class Feedback extends Component {
 
                             <RadioButtonGroup
                                 id="EB_Trust"
-                                label="The chatbot made a trusting impression on me."
+                                label="The chatbot made a trustworthy impression on me."
                                 value={values.EB_Trust}
                                 error={errors.EB_Trust}
                                 touched={touched.EB_Trust}
