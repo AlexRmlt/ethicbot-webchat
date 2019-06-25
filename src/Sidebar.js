@@ -58,9 +58,8 @@ class Sidebar extends Component {
     			   	<Link to="/" onClick={() => this.setState({menuOpen: false})} className="bm-item">Home</Link>
     			   	<br />
     			   	<button onClick={() => this.setState({showAbout: true})} className="bm-item">About</button>
-    			   	{ /* <br />
+    			   	<br />
                     <Link to="/feedback" onClick={() => this.setState({menuOpen: false})} className="bm-item">Feedback</Link>
-                    */ }
                     <br />
     			   	<hr />
                                             
