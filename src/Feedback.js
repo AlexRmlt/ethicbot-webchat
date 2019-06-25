@@ -220,12 +220,18 @@ class Feedback extends Component {
                                 actions.setSubmitting(false);
                             }, 500);
                             
+                            const nextYear = new Date();
+                            nextYear.setFullYear(nextYear.getFullYear() + 1);
+
                             fetch("/", {
                                 method: "POST",
                                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
                                 body: encode({ "form-name": "feedback", ...values })
                             }).then(() => {
-                                cookies.set('feedback', 'true', { path: '/' });
+                                cookies.set('feedback', true, { 
+                                    path: '/',
+                                    expires: nextYear
+                                });
                                 this.forceUpdate();
                             }).catch(error => alert(error));
                             //actions.resetForm();
