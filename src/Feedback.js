@@ -364,26 +364,8 @@ class Feedback extends Component {
                                     <Field
                                         component={RadioButton}
                                         name="GI_EaseOfUse"
-                                        id="GI_EaseOfUse_SA"
-                                        label="Strongly agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_EaseOfUse"
-                                        id="GI_EaseOfUse_A"
-                                        label="Agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_EaseOfUse"
-                                        id="GI_EaseOfUse_SWA"
-                                        label="Somewhat agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_EaseOfUse"
-                                        id="GI_EaseOfUse_SWD"
-                                        label="Somewhat disagree"
+                                        id="GI_EaseOfUse_SD"
+                                        label="Strongly disagree"
                                     />
                                     <Field
                                         component={RadioButton}
@@ -394,8 +376,26 @@ class Feedback extends Component {
                                     <Field
                                         component={RadioButton}
                                         name="GI_EaseOfUse"
-                                        id="GI_EaseOfUse_SD"
-                                        label="Strongly disagree"
+                                        id="GI_EaseOfUse_SWD"
+                                        label="Somewhat disagree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_EaseOfUse"
+                                        id="GI_EaseOfUse_SWA"
+                                        label="Somewhat agree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_EaseOfUse"
+                                        id="GI_EaseOfUse_A"
+                                        label="Agree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_EaseOfUse"
+                                        id="GI_EaseOfUse_SA"
+                                        label="Strongly agree"
                                     />
                                 </RadioButtonGroup>
 
@@ -409,26 +409,8 @@ class Feedback extends Component {
                                     <Field
                                         component={RadioButton}
                                         name="GI_EasyToUnderstand"
-                                        id="GI_EasyToUnderstand_SA"
-                                        label="Strongly agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_EasyToUnderstand"
-                                        id="GI_EasyToUnderstand_A"
-                                        label="Agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_EasyToUnderstand"
-                                        id="GI_EasyToUnderstand_SWA"
-                                        label="Somewhat agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_EasyToUnderstand"
-                                        id="GI_EasyToUnderstand_SWD"
-                                        label="Somewhat disagree"
+                                        id="GI_EasyToUnderstand_SD"
+                                        label="Strongly disagree"
                                     />
                                     <Field
                                         component={RadioButton}
@@ -439,8 +421,26 @@ class Feedback extends Component {
                                     <Field
                                         component={RadioButton}
                                         name="GI_EasyToUnderstand"
-                                        id="GI_EasyToUnderstand_SD"
-                                        label="Strongly disagree"
+                                        id="GI_EasyToUnderstand_SWD"
+                                        label="Somewhat disagree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_EasyToUnderstand"
+                                        id="GI_EasyToUnderstand_SWA"
+                                        label="Somewhat agree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_EasyToUnderstand"
+                                        id="GI_EasyToUnderstand_A"
+                                        label="Agree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_EasyToUnderstand"
+                                        id="GI_EasyToUnderstand_SA"
+                                        label="Strongly agree"
                                     />
                                 </RadioButtonGroup>
 
@@ -454,26 +454,8 @@ class Feedback extends Component {
                                     <Field
                                         component={RadioButton}
                                         name="GI_UsefulMessages"
-                                        id="GI_UsefulMessages_SA"
-                                        label="Strongly agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_UsefulMessages"
-                                        id="GI_UsefulMessages_A"
-                                        label="Agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_UsefulMessages"
-                                        id="GI_UsefulMessages_SWA"
-                                        label="Somewhat agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_UsefulMessages"
-                                        id="GI_UsefulMessages_SWD"
-                                        label="Somewhat disagree"
+                                        id="GI_UsefulMessages_SD"
+                                        label="Strongly disagree"
                                     />
                                     <Field
                                         component={RadioButton}
@@ -484,8 +466,26 @@ class Feedback extends Component {
                                     <Field
                                         component={RadioButton}
                                         name="GI_UsefulMessages"
-                                        id="GI_UsefulMessages_SD"
-                                        label="Strongly disagree"
+                                        id="GI_UsefulMessages_SWD"
+                                        label="Somewhat disagree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_UsefulMessages"
+                                        id="GI_UsefulMessages_SWA"
+                                        label="Somewhat agree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_UsefulMessages"
+                                        id="GI_UsefulMessages_A"
+                                        label="Agree"
+                                    />
+                                   <Field
+                                        component={RadioButton}
+                                        name="GI_UsefulMessages"
+                                        id="GI_UsefulMessages_SA"
+                                        label="Strongly agree"
                                     />
                                 </RadioButtonGroup>
 
@@ -499,26 +499,8 @@ class Feedback extends Component {
                                     <Field
                                         component={RadioButton}
                                         name="GI_Repetitive"
-                                        id="GI_Repetitive_SA"
-                                        label="Strongly agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_Repetitive"
-                                        id="GI_Repetitive_A"
-                                        label="Agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_Repetitive"
-                                        id="GI_Repetitive_SWA"
-                                        label="Somewhat agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_Repetitive"
-                                        id="GI_Repetitive_SWD"
-                                        label="Somewhat disagree"
+                                        id="GI_Repetitive_SD"
+                                        label="Strongly disagree"
                                     />
                                     <Field
                                         component={RadioButton}
@@ -529,8 +511,26 @@ class Feedback extends Component {
                                     <Field
                                         component={RadioButton}
                                         name="GI_Repetitive"
-                                        id="GI_Repetitive_SD"
-                                        label="Strongly disagree"
+                                        id="GI_Repetitive_SWD"
+                                        label="Somewhat disagree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_Repetitive"
+                                        id="GI_Repetitive_SWA"
+                                        label="Somewhat agree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_Repetitive"
+                                        id="GI_Repetitive_A"
+                                        label="Agree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_Repetitive"
+                                        id="GI_Repetitive_SA"
+                                        label="Strongly agree"
                                     />
                                 </RadioButtonGroup>
 
@@ -544,26 +544,8 @@ class Feedback extends Component {
                                     <Field
                                         component={RadioButton}
                                         name="GI_Interesting"
-                                        id="GI_Interesting_SA"
-                                        label="Strongly agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_Interesting"
-                                        id="GI_Interesting_A"
-                                        label="Agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_Interesting"
-                                        id="GI_Interesting_SWA"
-                                        label="Somewhat agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_Interesting"
-                                        id="GI_Interesting_SWD"
-                                        label="Somewhat disagree"
+                                        id="GI_Interesting_SD"
+                                        label="Strongly disagree"
                                     />
                                     <Field
                                         component={RadioButton}
@@ -574,8 +556,26 @@ class Feedback extends Component {
                                     <Field
                                         component={RadioButton}
                                         name="GI_Interesting"
-                                        id="GI_Interesting_SD"
-                                        label="Strongly disagree"
+                                        id="GI_Interesting_SWD"
+                                        label="Somewhat disagree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_Interesting"
+                                        id="GI_Interesting_SWA"
+                                        label="Somewhat agree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_Interesting"
+                                        id="GI_Interesting_A"
+                                        label="Agree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_Interesting"
+                                        id="GI_Interesting_SA"
+                                        label="Strongly agree"
                                     />
                                 </RadioButtonGroup>
 
@@ -589,26 +589,8 @@ class Feedback extends Component {
                                     <Field
                                         component={RadioButton}
                                         name="GI_Learned"
-                                        id="GI_Learned_SA"
-                                        label="Strongly agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_Learned"
-                                        id="GI_Learned_A"
-                                        label="Agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_Learned"
-                                        id="GI_Learned_SWA"
-                                        label="Somewhat agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_Learned"
-                                        id="GI_Learned_SWD"
-                                        label="Somewhat disagree"
+                                        id="GI_Learned_SD"
+                                        label="Strongly disagree"
                                     />
                                     <Field
                                         component={RadioButton}
@@ -619,8 +601,26 @@ class Feedback extends Component {
                                     <Field
                                         component={RadioButton}
                                         name="GI_Learned"
-                                        id="GI_Learned_SD"
-                                        label="Strongly disagree"
+                                        id="GI_Learned_SWD"
+                                        label="Somewhat disagree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_Learned"
+                                        id="GI_Learned_SWA"
+                                        label="Somewhat agree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_Learned"
+                                        id="GI_Learned_A"
+                                        label="Agree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_Learned"
+                                        id="GI_Learned_SA"
+                                        label="Strongly agree"
                                     />
                                 </RadioButtonGroup>
 
@@ -634,26 +634,8 @@ class Feedback extends Component {
                                     <Field
                                         component={RadioButton}
                                         name="GI_Maintain"
-                                        id="GI_Maintain_SA"
-                                        label="Strongly agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_Maintain"
-                                        id="GI_Maintain_A"
-                                        label="Agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_Maintain"
-                                        id="GI_Maintain_SWA"
-                                        label="Somewhat agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_Maintain"
-                                        id="GI_Maintain_SWD"
-                                        label="Somewhat disagree"
+                                        id="GI_Maintain_SD"
+                                        label="Strongly disagree"
                                     />
                                     <Field
                                         component={RadioButton}
@@ -664,8 +646,26 @@ class Feedback extends Component {
                                     <Field
                                         component={RadioButton}
                                         name="GI_Maintain"
-                                        id="GI_Maintain_SD"
-                                        label="Strongly disagree"
+                                        id="GI_Maintain_SWD"
+                                        label="Somewhat disagree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_Maintain"
+                                        id="GI_Maintain_SWA"
+                                        label="Somewhat agree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_Maintain"
+                                        id="GI_Maintain_A"
+                                        label="Agree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_Maintain"
+                                        id="GI_Maintain_SA"
+                                        label="Strongly agree"
                                     />
                                 </RadioButtonGroup>
 
@@ -679,26 +679,8 @@ class Feedback extends Component {
                                     <Field
                                         component={RadioButton}
                                         name="GI_Robust"
-                                        id="GI_Robust_SA"
-                                        label="Strongly agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_Robust"
-                                        id="GI_Robust_A"
-                                        label="Agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_Robust"
-                                        id="GI_Robust_SWA"
-                                        label="Somewhat agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="GI_Robust"
-                                        id="GI_Robust_SWD"
-                                        label="Somewhat disagree"
+                                        id="GI_Robust_SD"
+                                        label="Strongly disagree"
                                     />
                                     <Field
                                         component={RadioButton}
@@ -709,8 +691,26 @@ class Feedback extends Component {
                                     <Field
                                         component={RadioButton}
                                         name="GI_Robust"
-                                        id="GI_Robust_SD"
-                                        label="Strongly disagree"
+                                        id="GI_Robust_SWD"
+                                        label="Somewhat disagree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_Robust"
+                                        id="GI_Robust_SWA"
+                                        label="Somewhat agree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_Robust"
+                                        id="GI_Robust_A"
+                                        label="Agree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="GI_Robust"
+                                        id="GI_Robust_SA"
+                                        label="Strongly agree"
                                     />
                                 </RadioButtonGroup>
 
@@ -861,26 +861,8 @@ class Feedback extends Component {
                                     <Field
                                         component={RadioButton}
                                         name="EB_Tone"
-                                        id="EB_Tone_SA"
-                                        label="Strongly agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="EB_Tone"
-                                        id="EB_Tone_A"
-                                        label="Agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="EB_Tone"
-                                        id="EB_Tone_SWA"
-                                        label="Somewhat agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="EB_Tone"
-                                        id="EB_Tone_SWD"
-                                        label="Somewhat disagree"
+                                        id="EB_Tone_SD"
+                                        label="Strongly disagree"
                                     />
                                     <Field
                                         component={RadioButton}
@@ -891,8 +873,26 @@ class Feedback extends Component {
                                     <Field
                                         component={RadioButton}
                                         name="EB_Tone"
-                                        id="EB_Tone_SD"
-                                        label="Strongly disagree"
+                                        id="EB_Tone_SWD"
+                                        label="Somewhat disagree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="EB_Tone"
+                                        id="EB_Tone_SWA"
+                                        label="Somewhat agree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="EB_Tone"
+                                        id="EB_Tone_A"
+                                        label="Agree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="EB_Tone"
+                                        id="EB_Tone_SA"
+                                        label="Strongly agree"
                                     />
                                 </RadioButtonGroup>
 
@@ -906,26 +906,8 @@ class Feedback extends Component {
                                     <Field
                                         component={RadioButton}
                                         name="EB_Privacy"
-                                        id="EB_Privacy_SA"
-                                        label="Strongly agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="EB_Privacy"
-                                        id="EB_Privacy_A"
-                                        label="Agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="EB_Privacy"
-                                        id="EB_Privacy_SWA"
-                                        label="Somewhat agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="EB_Privacy"
-                                        id="EB_Privacy_SWD"
-                                        label="Somewhat disagree"
+                                        id="EB_Privacy_SD"
+                                        label="Strongly disagree"
                                     />
                                     <Field
                                         component={RadioButton}
@@ -936,8 +918,26 @@ class Feedback extends Component {
                                     <Field
                                         component={RadioButton}
                                         name="EB_Privacy"
-                                        id="EB_Privacy_SD"
-                                        label="Strongly disagree"
+                                        id="EB_Privacy_SWD"
+                                        label="Somewhat disagree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="EB_Privacy"
+                                        id="EB_Privacy_SWA"
+                                        label="Somewhat agree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="EB_Privacy"
+                                        id="EB_Privacy_A"
+                                        label="Agree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="EB_Privacy"
+                                        id="EB_Privacy_SA"
+                                        label="Strongly agree"
                                     />
                                 </RadioButtonGroup>
 
@@ -951,26 +951,8 @@ class Feedback extends Component {
                                     <Field
                                         component={RadioButton}
                                         name="EB_Trust"
-                                        id="EB_Trust_SA"
-                                        label="Strongly agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="EB_Trust"
-                                        id="EB_Trust_A"
-                                        label="Agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="EB_Trust"
-                                        id="EB_Trust_SWA"
-                                        label="Somewhat agree"
-                                    />
-                                    <Field
-                                        component={RadioButton}
-                                        name="EB_Trust"
-                                        id="EB_Trust_SWD"
-                                        label="Somewhat disagree"
+                                        id="EB_Trust_SD"
+                                        label="Strongly disagree"
                                     />
                                     <Field
                                         component={RadioButton}
@@ -981,8 +963,26 @@ class Feedback extends Component {
                                     <Field
                                         component={RadioButton}
                                         name="EB_Trust"
-                                        id="EB_Trust_SD"
-                                        label="Strongly disagree"
+                                        id="EB_Trust_SWD"
+                                        label="Somewhat disagree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="EB_Trust"
+                                        id="EB_Trust_SWA"
+                                        label="Somewhat agree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="EB_Trust"
+                                        id="EB_Trust_A"
+                                        label="Agree"
+                                    />
+                                    <Field
+                                        component={RadioButton}
+                                        name="EB_Trust"
+                                        id="EB_Trust_SA"
+                                        label="Strongly agree"
                                     />
                                 </RadioButtonGroup>
 
