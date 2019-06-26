@@ -4,7 +4,7 @@ import DarkModeToggle from './DarkModeToggle';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import './Sidebar.css';
 
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 
 class About extends Component {
 	render() {
